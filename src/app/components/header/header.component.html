@@ -1,0 +1,95 @@
+<!-- <div class="flexHead"> -->
+<!-- <div>
+    <header class="header">
+      <a href="#" class="logo">
+        <img src="../../../assets/nisum.png" />
+      </a>
+    </header>
+  </div> -->
+
+<div class="navbar">
+  <div class="logo">
+    <img src="../../../assets/nisum.png" />
+  </div>
+  <div class="buttons">
+    <button type="button" class="btn btn-light" routerLink="home">Home</button>
+    <div>
+      <button
+        type="button"
+        class="btn btn-light"
+        button
+        [matMenuTriggerFor]="belowMenu"
+      >
+        Clients
+      </button>
+      <mat-menu #belowMenu="matMenu" yPosition="below">
+        <button routerLink="albertsons-main" mat-menu-item>Albertsons</button>
+
+        <button mat-menu-item>Williams sonoma</button>
+        <button mat-menu-item>Macys</button>
+        <button mat-menu-item>GAP</button>
+      </mat-menu>
+    </div>
+    <!-- <button type="button" class="btn btn-light" style="color: rgb(29, 29, 232)">
+      Upload Documents
+    </button> -->
+    <div>
+      <a
+        href="https://nisum.tovuti.io/"
+        target="_blank"
+        style="text-decoration: none"
+      >
+        <button type="button" class="btn btn-light">Practice</button></a
+      >
+    </div>
+    <button
+      type="button"
+      routerLink="upload"
+      class="btn btn-light"
+      style="color: rgb(29, 29, 232)"
+    >
+      Upload Documents
+    </button>
+  </div>
+</div>
+<!-- <div class="rightHead">
+    <div>
+      <button routerLink="home" mat-button>Home</button>
+    </div>
+    <div>
+      <button mat-button [matMenuTriggerFor]="belowMenu">Clients</button>
+      <mat-menu #belowMenu="matMenu" yPosition="below">
+        <button routerLink="albertsons-main" target="_blank" mat-menu-item>
+          Albertsons
+        </button>
+        <button mat-menu-item>Williams sonoma</button>
+        <button mat-menu-item>Macys</button>
+        <button mat-menu-item>GAP</button>
+      </mat-menu>
+    </div>
+
+    <div>
+      <button mat-button [matMenuTriggerFor]="belowMenu1">Documents</button>
+      <mat-menu #belowMenu1="matMenu" yPosition="below">
+        <button routerLink="upload" mat-menu-item>Catalogue</button>
+
+        <button mat-menu-item>Pharma</button>
+        <button mat-menu-item>Loyalty</button>
+        <button mat-menu-item>DOMS</button>
+        <button mat-menu-item>Pricing</button>
+      </mat-menu>
+    </div>
+    <div>
+      <a
+        href="https://nisum.tovuti.io/"
+        target="_blank"
+        style="text-decoration: none"
+        ><button mat-button>Practice</button></a
+      >
+    </div>
+  </div>
+</div> -->
+
+
+
+  

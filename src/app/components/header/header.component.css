@@ -1,0 +1,72 @@
+.header {
+  padding-bottom: 10px;
+}
+
+.header .logo img {
+  width: 250px;
+  /* margin-top: 20px; */
+  /* margin-left: 20px; */
+}
+/* .rightHead {
+  align-self: center;
+  display: flex;
+  gap: 60px;
+  font-size: 18px;
+}
+.rightHead button {
+  font-weight: 400;
+}
+
+.btnmenu {
+  color: black;
+  border: none;
+  background-color: white;
+} */
+
+/* .flexHead {
+  display: flex;
+  gap: 50px;
+  background-color: whitesmoke;
+
+  font-family: monospace;
+  font-style: italic;
+}
+.navbar a {
+  color: black;
+  text-decoration: none;
+  padding: 5px;
+}
+
+.navbar a:hover {
+  color: rgb(7, 42, 239);
+  border-radius: 5px;
+  box-shadow: 2px solid;
+  transition-delay: 0.25s;
+} */
+
+.logo img {
+  width: 200px;
+  /* margin-left: 150px; */
+  display: flex;
+}
+.buttons {
+  justify-content: space-between;
+  margin-right: 200px;
+  gap: 100px;
+
+  align-self: center;
+  font-family: inherit;
+  /* background-color: white; */
+  display: flex;
+}
+.navbar {
+  position: sticky;
+  /* background: whitesmoke; */
+  display: flex;
+  flex-direction: row;
+}
+
+.logo{
+  display: flex;
+}
+

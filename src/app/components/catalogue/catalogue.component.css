@@ -1,0 +1,30 @@
+/* .catalogue {
+  background-color: rgb(168, 212, 218);
+} */
+/* h2 {
+  font-size: 20px;
+  margin-top: 30px;
+} */
+h1 {
+  text-align: center;
+  font-size: 40px;
+  padding-top: 50px;
+  /* margin-top: 60px; */
+  color: green;
+}
+p {
+  font-size: 20px;
+  text-align: justify;
+  margin-top: 50px;
+  /* color: darkslateblue;
+   */
+  color: black;
+}
+.head {
+  text-align: center;
+}
+.catalog {
+  background-color: aliceblue;
+  height: 110%;
+  margin-top: -15px;
+}
